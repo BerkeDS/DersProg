@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{539EC1CC-BEB1-4395-8112-D16735999066}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ana_form\Kullanici.cs" />
+    <Compile Include="ana_form\sinav_prog.cs" />
+    <Compile Include="Business\Shipper.cs" />
+    <Compile Include="Database\database.cs" />
+    <Compile Include="Database\kullaniciDAL.cs" />
+    <Compile Include="Database\ShipperDAL.cs" />
+    <Compile Include="Ana_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana_Form.Designer.cs">
+      <DependentUpon>Ana_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\sinav_progDAL.cs" />
+    <Compile Include="Hesap_form\giris_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hesap_form\giris_form.Designer.cs">
+      <DependentUpon>giris_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hesap_form\hesap_ayar_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hesap_form\hesap_ayar_form.Designer.cs">
+      <DependentUpon>hesap_ayar_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hesap_form\kullanici_ekle_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hesap_form\kullanici_ekle_form.Designer.cs">
+      <DependentUpon>kullanici_ekle_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Northwind_form\Northwind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Northwind_form\Northwind.Designer.cs">
+      <DependentUpon>Northwind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Northwind_form\northwind_datagrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Northwind_form\northwind_datagrid.Designer.cs">
+      <DependentUpon>northwind_datagrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Northwind_form\northwind_kategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Northwind_form\northwind_kategori.Designer.cs">
+      <DependentUpon>northwind_kategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgramDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgramDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sinav_prog_form\sinav_prog_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sinav_prog_form\sinav_prog_ekle.Designer.cs">
+      <DependentUpon>sinav_prog_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sinav_prog_form\sinav_prog_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sinav_prog_form\sinav_prog_guncelle.Designer.cs">
+      <DependentUpon>sinav_prog_guncelle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ana_Form.resx">
+      <DependentUpon>Ana_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hesap_form\giris_form.resx">
+      <DependentUpon>giris_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hesap_form\hesap_ayar_form.resx">
+      <DependentUpon>hesap_ayar_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hesap_form\kullanici_ekle_form.resx">
+      <DependentUpon>kullanici_ekle_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Northwind_form\Northwind.resx">
+      <DependentUpon>Northwind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Northwind_form\northwind_datagrid.resx">
+      <DependentUpon>northwind_datagrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Northwind_form\northwind_kategori.resx">
+      <DependentUpon>northwind_kategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sinav_prog_form\sinav_prog_ekle.resx">
+      <DependentUpon>sinav_prog_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sinav_prog_form\sinav_prog_guncelle.resx">
+      <DependentUpon>sinav_prog_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ProgramDataSet.xsc">
+      <DependentUpon>ProgramDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProgramDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProgramDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProgramDataSet.xss">
+      <DependentUpon>ProgramDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProgramDataSet1.xsc">
+      <DependentUpon>ProgramDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProgramDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProgramDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProgramDataSet1.xss">
+      <DependentUpon>ProgramDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

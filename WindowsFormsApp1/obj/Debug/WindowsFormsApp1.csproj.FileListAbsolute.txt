@@ -1,0 +1,38 @@
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+c:\users\sefik\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\SeFiK\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.sinav_prog_ekle.resources
+C:\Users\SeFiK\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Northwind.resources
+C:\Users\SeFiK\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.northwind_datagrid.resources
+C:\Users\SeFiK\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.northwind_kategori.resources
+C:\Users\SeFiK\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Ana_Form.resources
+C:\Users\SeFiK\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.kullanici_ekle_form.resources
+C:\Users\SeFiK\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.hesap_ayar_form.resources
+C:\Users\SeFiK\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.giris_form.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Ana_Form.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.giris_form.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.hesap_ayar_form.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.kullanici_ekle_form.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Northwind.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.northwind_datagrid.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.northwind_kategori.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.sinav_prog_ekle.resources
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Yeni klasör\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\Login\Dosyalar\Calisma\c# ve sql\Projeler\winform guncel 2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\Login\Dosyalar\Calisma\c# ve sql\Projeler\winform guncel 2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\Login\Dosyalar\Calisma\c# ve sql\Projeler\winform guncel 2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Login\Dosyalar\Calisma\c# ve sql\Projeler\win_form_sinav_prog\winform guncel 2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\Login\Dosyalar\Calisma\c# ve sql\Projeler\win_form_sinav_prog\winform guncel 2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\Login\Dosyalar\Calisma\c# ve sql\Projeler\win_form_sinav_prog\winform guncel 2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
